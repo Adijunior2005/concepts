@@ -100,7 +100,7 @@ void search(int key){
     int index=0;
     while(temp != NULL){
         if(key==temp->data){
-            cout<<"index of "<<key<<": "<<index;
+            cout<<"index  of "<<key<<": "<<index;
         }
         temp=temp->next;
         index++;

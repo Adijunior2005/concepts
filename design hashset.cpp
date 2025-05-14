@@ -6,7 +6,7 @@ using namespace std;
 class MyHashSet {
 private:
     static const int SIZE = 1000; // Bucket size
-    std::vector<std::list<int>>table; // Hash table with chaining
+    vector<list<int>>table; // Hash table with chaining
     
     int hash(int key) {
         return key % SIZE; // Hash function
